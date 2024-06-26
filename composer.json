@@ -1,0 +1,13 @@
+{
+    "name": "svandragt/wp-niggles",
+    "description": "a WordPress user experience plugin.",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Sander van Dragt",
+            "email": "sander@vandragt.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "stable"
+}
