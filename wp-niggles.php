@@ -14,6 +14,7 @@
 namespace Niggles;
 
 require_once __DIR__ . '/features/login-redirects.php';
+require_once __DIR__ . '/features/super-admin-bump.php';
 require_once __DIR__ . '/namespace.php';
 
 bootstrap();
