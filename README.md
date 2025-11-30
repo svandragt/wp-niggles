@@ -1,7 +1,5 @@
 # WP-Niggles
-WordPress User Experience improvement plugin.
-
-The scope if this plugin is limited to minor enhancements and tweaks, which create a saner and perhaps more opinionated set of defaults to the educated WordPress user.
+A WordPress user experience plugin for people that experienced friction.
 
 ## Features
 
