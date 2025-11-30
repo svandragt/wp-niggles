@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Niggles
- * Description: A WordPress user experience plugin for bloggers.
+ * Description: A WordPress user experience plugin for people with high standards.
  * License:     GPL-3.0+
  * Plugin URI:      https://github.com/svandragt/wp-niggles/
  * Author:          Sander van Dragt
@@ -17,4 +17,3 @@ require_once __DIR__ . '/features/login-redirects.php';
 require_once __DIR__ . '/namespace.php';
 
 bootstrap();
-LoginRedirects\bootstrap();

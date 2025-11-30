@@ -4,4 +4,5 @@ namespace Niggles;
 
 function bootstrap() {
 
+	LoginRedirects\bootstrap();
 }

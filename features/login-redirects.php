@@ -40,7 +40,7 @@ function redirect_by_role( string $user_login, WP_User $user ) : void {
 	}
 	if ( $user->has_cap( 'publish_posts' ) ) {
 		// Authors to new page
-		wp_safe_redirect( admin_url( 'post-new.php?post_type=post' ) );
+		wp_safe_redirect( admin_url( 'post-new.php?post_type=page' ) );
 		die();
 	}
 	if ( $user->has_cap( 'delete_posts' ) ) {
