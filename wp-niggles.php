@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Niggles
- * Description: A WordPress user experience plugin for people with high standards.
+ * Description: A WordPress user experience plugin for people that experienced friction.
  * License:     GPL-3.0+
  * Plugin URI:      https://github.com/svandragt/wp-niggles/
  * Author:          Sander van Dragt
@@ -15,6 +15,6 @@ namespace Niggles;
 
 require_once __DIR__ . '/features/login-redirects.php';
 require_once __DIR__ . '/features/super-admin-bump.php';
-require_once __DIR__ . '/namespace.php';
 
-bootstrap();
+LoginRedirects\bootstrap();
+SuperAdminBump\bootstrap();
