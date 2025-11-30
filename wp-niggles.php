@@ -13,9 +13,8 @@
 
 namespace Niggles;
 
-require_once __DIR__ .'/features/login-redirects.php';
-require_once __DIR__ .'/namespace.php';
-
+require_once __DIR__ . '/features/login-redirects.php';
+require_once __DIR__ . '/namespace.php';
 
 bootstrap();
 LoginRedirects\bootstrap();
